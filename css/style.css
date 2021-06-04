@@ -5,8 +5,8 @@ body {
 .home-screen {
 	background: url('../images/homescreen1.jpg') ;
 	/*	display: table;*/
-	width: 1366px;
-	height: 768px;
+	width: 100vw;
+	height: 100vh;
 }
 
 .home-screen button {
@@ -19,8 +19,8 @@ body {
 	top: 390px;
 	left: 440px;
 	cursor: pointer;
-	color: #f6bf5b;
-	background: #a66428;
+	background: #774218;
+	color: white;
 	border-radius: 20px;
 	position: absolute;
 }
@@ -348,7 +348,7 @@ input[type=radio] {
 
 .column .card,
 .drag-el .card {
-	margin-top: -86px;
+	margin-top: -163px;
 }
 
 .drag-el {
