@@ -52,12 +52,14 @@ body {
 
 
 .wrapper {
-	width: 1000px;
+	/* width: 1000px; */
 	margin: -20px auto;
+	display: flex;
+	justify-content: center;
 }
 
 .column {
-	width: 100px;
+	width: 140px;
 	min-height: 120px;
 	padding-top: 40px;
 	float: left;
@@ -333,8 +335,8 @@ input[type=radio] {
 /*Cards style*/
 .card {
 	display: block;
-	width: 82px;
-	height: 119px;
+	width: 120px;
+    height: 200px;
 	margin: 0 auto;
 	border: 1px solid #000;
 	border-radius: 5px;
@@ -378,7 +380,7 @@ input[type=radio] {
 
 .column .closed,
 .column .closed + .open {
-	margin-top: -116px;
+	margin-top: -190px;
 }
 
 .card.closed {
@@ -398,7 +400,8 @@ input[type=radio] {
 
 .offside {
 	width: inherit;
-	position: absolute;
+	position: fixed;
+	right: 0px;
 	bottom: 120px;
 }
 
