@@ -19,6 +19,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - name: Install Tencent coscmd
+        run:  sudo pip install coscmd
+        
       - name: Tencent Configure coscmd
         env:
           SECRET_ID: ${{ secrets.SECRET_ID }}
