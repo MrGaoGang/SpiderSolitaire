@@ -357,7 +357,7 @@ input[type=radio] {
 }
 
 
-.column[data-height="1"] .open {
+/* .column[data-height="1"] .open {
 	margin-top: -90px;
 }
 
@@ -376,7 +376,7 @@ input[type=radio] {
 
 .column[data-height="5"] .open {
 	margin-top: -106px;
-}
+} */
 
 .column .closed,
 .column .closed + .open {
